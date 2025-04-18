@@ -10,7 +10,12 @@ abjad_dict = {
 
 
 # تابع برای پردازش هر آیه و ایجاد ساختار داده
-def process_quran_file(file_path):
+def create_quran_data_structure(file_path):
+    """
+    ایجاد ساختار داده قرآنی
+    :param file_path:
+    :return:
+    """
     quran_data = []
 
     # خواندن فایل
@@ -69,7 +74,7 @@ def get_surah_letter_abjad(surah_number, ):
 
 # استفاده از تابع برای خواندن فایل قرآن و پردازش آن
 file_path = 'quran.txt'  # مسیر فایل قرآن
-quran_data = process_quran_file(file_path)
+quran_data = create_quran_data_structure(file_path)
 
 get_surah_letter_abjad(surah_number=112)
 
