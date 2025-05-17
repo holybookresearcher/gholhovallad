@@ -87,7 +87,7 @@ def probability_of_divisible_blocks(all_list1, all_list2, N, K=19):
 
 
 # تنظیمات آزمایش
-k = 10000  # تعداد آزمایش‌ها
+k = 100000  # تعداد آزمایش‌ها
 list_length = 23  # طول هر لیست
 block_length = 7  # طول بلوک متقارن
 K = 19  # مقسوم علیه
